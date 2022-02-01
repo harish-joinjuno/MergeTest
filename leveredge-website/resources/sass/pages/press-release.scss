@@ -1,0 +1,56 @@
+#press-release {
+    height: 100%;
+    align-items: stretch;
+
+    .press-header, .press-footer {
+        padding: 32px;
+        flex-shrink: 0;
+        .title {
+            font-family: 'CooperMediumBT';
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 51px;
+            text-transform: none;
+        }
+        .description {
+            margin-top: 10px;
+            span {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .release-container {
+        flex-shrink: 0;
+        flex-grow: 1;
+        .release-group {
+            font-family: inherit;
+            .release-group-title {
+                font-family: 'CooperMediumBT';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                margin: 30px 0;
+            }
+            &:first-child {
+                .release-group-title {
+                    margin-top: 0;
+                }
+            }
+            .release {
+                .date {
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+}

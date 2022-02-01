@@ -1,0 +1,1 @@
+Hi {{ $user->first_name }}, it's Nikhil from Juno. I founded the company to negotiate my own student loans, and I'm leading the negotiations for your loans too. Feel free to text back or email support@joinjuno.com if you have any questions.

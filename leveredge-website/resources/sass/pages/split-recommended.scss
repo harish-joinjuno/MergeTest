@@ -1,0 +1,89 @@
+.apr-sub-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.product-sub-heading{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #0b0b0b;
+}
+.table-split-recommended {
+    border-top: 4px solid #278D87;
+    border-bottom: 4px solid #278D87;
+    border-left-width: 0;
+    border-right-width: 0;
+    table-layout:fixed;
+    @media (max-width: 767px) {
+        border-top-width: 2px;
+        border-bottom-width: 0;
+    }
+    thead {
+        tr:first-child {
+            border-bottom: 2px solid #278d8740;
+        }
+    }
+    tr {
+        background: #FFFFFF;
+        &:nth-child(2n) {
+            background: rgba(201, 226, 225, 0.25);
+        }
+        td {
+            border-left: 4px solid #278D87;
+            border-right: 4px solid #278D87;
+            border-top: 0;
+            border-bottom: 0;
+            &:not(:first-child) {
+                vertical-align: middle;
+            }
+            &:first-child {
+                width: 210px;
+                text-align: center;
+            }
+            @media (max-width: 767px) {
+                font-size: 14px;
+                height: 144px;
+                border-right-width: 2px;
+                border-left-width: 2px;
+                &:not(:first-child) {
+                    width: calc(50% - 30px);
+                }
+                &:last-child {
+                    border-right-width: 0;
+                }
+                &:first-child {
+                    width: 60px;
+                    position: relative;
+                    border-left-width: 0;
+                    div {
+                        height: 60px;
+                        width: 144px;
+                        transform: rotate(-90deg);
+                        position: absolute;
+                        left: -45px;
+                        top: 44px;
+                        display: flex;
+                        align-items: center;
+                        p {
+                            margin: 0;
+                            width: 100%;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                a {
+                    font-size: 16px;
+                    line-height: 18px;
+                    &.btn {
+                        border-radius: 5px!important;
+                    }
+                }
+                h1 {
+                    font-size: 20px;
+                }
+                h3 {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

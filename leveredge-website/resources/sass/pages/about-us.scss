@@ -1,0 +1,204 @@
+#about-us {
+    background: #E5E5E5;
+    h1{
+        font-size: 38px;
+        margin-bottom: 32px;
+        line-height: 45px;
+        @media (min-width: 992px) {
+            line-height: 64px;
+            font-size: 58px;
+        }
+        span {
+            color: #24474B;
+        }
+    }
+
+    h2.section-title{
+        font-family: "GTWalsheimPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #000000;
+        border-bottom: 2px solid #000;
+        display: inline-block;
+    }
+
+    .line {
+        border: 1px solid #8BD3D1;
+    }
+
+    .peel-large-bottom {
+        height: 100px;
+        @media (min-width: 992px) {
+            height: 200px;
+        }
+        background-image: url("../../../img/peel-large.png");
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        background-size: 60%;
+        margin-bottom: -1px;
+    }
+
+    .story-image {
+        background: linear-gradient(0deg, #EDF6F5 50%, #FFFFFF 50%);
+    }
+
+    .our-story {
+        background-image: url("../../../img/our-story-bg.png");
+        background-size: cover;
+        background-position: right;
+        @media (min-width: 992px) {
+            background-position: bottom;
+        }
+        @media (min-width: 1920px) {
+            background-image: none;
+            background: #EDF6F5;
+        }
+        .balloon-row {
+            top: -80px;
+            @media (min-width: 992px) {
+                top: -150px;
+            }
+            @media (min-width: 1199px) {
+                top: -240px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+        .our-story-row {
+            padding-bottom: 350px;
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+            }
+            span {
+                color: #1A4043;
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 500;
+            }
+            @media (min-width: 992px) {
+                h2 {
+                    font-size: 46px;
+                    line-height: 42px;
+                }
+                span {
+                    font-size: 22px;
+                    line-height: 32px;
+                }
+            }
+            @media (min-width: 1440px) {
+                padding-bottom: 550px;
+            }
+            @media (min-width: 1920px) {
+                padding-bottom: 0;
+                margin-bottom: -50px;
+
+            }
+        }
+    }
+    .key-metrics-row {
+        background: linear-gradient(0deg, #67B6B3, #67B6B3), linear-gradient(180deg, #F7F7F5 -10.68%, rgba(247, 247, 245, 0) 117.94%);
+        @media (max-width: 992px) {
+            padding-bottom: 350px;
+        }
+        .section-title{
+            color: white;
+            border-color: white;
+        }
+        .metric-col {
+            font-weight: 500;
+            max-width: 245px;
+            .title {
+                font-family: "CooperMediumBT";
+                font-size: 60px;
+                line-height: 64px;
+            }
+            .desc {
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .key-metrics-balloon {
+        background: linear-gradient(0deg, #EFF6F5, #EFF6F5), linear-gradient(180deg, #F7F7F5 -10.68%, rgba(247, 247, 245, 0) 117.94%);
+        img {
+            margin-top: -415px;
+            height: 551px;
+            max-width: calc(100% - 50px);
+            margin-left: 50px;
+            @media (min-width: 992px) {
+                margin-top: -500px;
+                margin-left: 120px;
+                height: 703px;
+            }
+        }
+    }
+
+    .our-core-values {
+        .cor-value {
+            max-width: 233px;
+            .image-content {
+                height: 258px;
+            }
+            .title {
+                font-size: 24px;
+                line-height: 40px;
+            }
+            .desc {
+                font-size: 14px;
+                line-height: 17px;
+                font-weight: 500;
+                color: #000000;
+            }
+            @media (min-width: 992px) {
+                .title {
+                    font-size: 36px;
+                    line-height: 62px;
+                }
+                .desc {
+                    color: #6C7272;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+    .schools-slider {
+        background: linear-gradient(0deg, #EFF6F5, #EFF6F5), linear-gradient(180deg, #F7F7F5 -10.68%, rgba(247, 247, 245, 0) 117.94%);
+        .MS-content {
+            pointer-events: none;
+            .item .image-content {
+                border-radius: 10px;
+                img {
+                    height: 63px;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    #press-section{
+        color: #6C7272;
+        font-size: 14px;
+        @media (min-width: 992px) {
+            font-size: 18px;
+        }
+        a{
+            font-weight: 500;
+            color: #6C7272;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            color: #6C7272;
+        }
+    }
+}

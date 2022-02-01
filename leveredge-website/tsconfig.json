@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "lib": ["esnext", "dom"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "plugins": [{ "name": "ts-vue-plugin" }],
+        "target": "es2017"
+    },
+    "include": [
+        "node_modules/vue-typescript-import-dts/index.d.ts",
+        "resources/js/**/*.d.ts",
+        "resources/js/**/*.ts",
+        "resources/js/**/*.vue"
+    ]
+}

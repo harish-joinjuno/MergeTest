@@ -1,0 +1,449 @@
+.pill-radius{
+    border-radius: 40px;
+}
+
+h1, h2, .h1-class, .h2-class{
+    font-family: "CooperMediumBT";
+    color: #488C89;
+}
+h2.sub-heading{
+    font-family: $font-family-base;
+    color: black;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+h2.section-title{
+    font-family: "GTWalsheimPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    color: #000000;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+@media (min-width: 992px) {
+    h2.section-title{
+        font-size: 22px;
+    }
+}
+
+
+.title h4 {
+    border-bottom: 2px solid #000000;
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 4px;
+    color: #000000;
+}
+@media (max-width: 767px) {
+    .title h4 {
+        font-size: 20px;
+    }
+}
+
+
+
+section.hero h1{
+    font-size: 3rem;
+}
+
+h2, #footer h2{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.25rem;
+}
+
+h5{
+    font-size: 1.12rem;
+}
+
+
+@media (min-width: 768px) {
+    h5{
+        font-size: 1.4375rem;
+    }
+}
+
+@media (min-width: 576px) {
+    section.hero h1{
+        font-size: 3.5rem;
+    }
+}
+@media (min-width: 768px) {
+    section.hero h1{
+        font-size: 3.5rem;
+    }
+    h2.sub-heading{
+        font-size: 1.5rem;
+    }
+    h2, #footer h2{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 992px) {
+    section.hero h1{
+        font-size: 3.5rem;
+    }
+}
+
+h3, h4, .h3-class{
+    font-weight: 400;
+}
+
+h3.h3-class{
+    line-height: 1.2;
+}
+
+h2.section-header{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: $font-family-base;
+    color: black;
+    font-weight: 500;
+}
+.btn{
+    font-weight: 500;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+@media all and (max-width:768px) {
+    .btn-block-below-md {
+        width: 100%;
+        display:block;
+    }
+}
+hr.below-section-header{
+    margin-top: 0;
+    border-top: 2px solid #000000;
+    width: 100px;
+}
+.features h2.feature-header{
+    font-size: 1.75rem;
+}
+.features p{
+    font-size: 18px;
+    color: black;
+}
+.features .col-md-4{
+    min-height: 320px;
+    padding-top: 111px;
+}
+
+.vertically-padded-table th,
+.vertically-padded-table td{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.green-background{
+    background-color: #67B6B3;
+}
+.light-green-background{
+    background-color: #97C4BE;
+}
+.split-background-70{
+    background-image: linear-gradient(to top, #67B6B3 70%, white 30%);
+}
+.split-background-50{
+    background-image: linear-gradient(to top, #67B6B3 50%, white 50%);
+}
+.bg-grey{
+    background-color: #F7F7F5;
+}
+
+.bg-1{
+    background-color: #F3F3F3;
+}
+.bg-2{
+    background-color: #ffffff;;
+}
+.bg-3{
+    background-color: #67B6B3;
+}
+label{
+    font-weight: 500;
+}
+section{
+    padding: 60px 0;
+}
+
+
+
+.fw-100{
+    font-weight: 100;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}
+
+
+#footer{
+    background-color: map_get($brand-colors,"secondary-green");
+}
+#footer h1, #footer h2{
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+#footer a{
+    color: #FFE1E7;
+}
+
+#footer hr{
+    margin:0;
+}
+
+section#footer {
+    padding: 60px 0;
+}
+
+#footer .text-footer-disclaimer,
+#footer .text-footer-disclaimer div,
+{
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#footer p{
+    line-height: 1.5;
+}
+
+#footer.new-footer {
+    ul li {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 8px 0;
+        a {
+            text-decoration: underline;
+        }
+    }
+    .footer-desc {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .lady-under-tree {
+        margin-top: -70px;
+    }
+    .text-footer-disclaimer {
+        font-size: 15px;
+        &.copyright {
+            color: #A7E9E4;
+        }
+    }
+}
+
+.new-navbar {
+    .navbar-brand {
+        padding: 2px 0;
+    }
+}
+
+.custom-dropdown {
+    .dropdown-toggle {
+        i {
+            font-size: 11px;
+        }
+        &::after {
+            display: none;
+        }
+    }
+    .dropdown-menu {
+        border: 0;
+        border-radius: 0;
+        width: 318px;
+        .dropdown-item {
+            &:hover {
+                background: #ECF3F3;
+            }
+        }
+    }
+}
+
+#safeApp {
+    padding-top: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    #footer, nav.navbar, main {
+        flex-shrink: 0;
+    }
+    main {
+        flex-grow: 1;
+    }
+}
+
+
+.speech-bubble-left {
+    position: relative;
+    background: #FDF0F0;
+    border-radius: .4em;
+}
+
+.speech-bubble-left:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #FDF0F0;
+    border-left: 0;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+
+
+.lender-summary-card {
+    & ul {
+        list-style: none; /* Remove default bullets */
+    }
+
+    & ul li::before {
+        content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: map_get($brand-colors, 'primary'); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 0.75em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+}
+
+
+
+.custom-radio {
+    &.form-group {
+        margin-bottom: 4px;
+    }
+    cursor: pointer;
+    label {
+        cursor: pointer;
+        max-width: 300px;
+        border-color: map_get($brand-colors,"primary-green");
+        &:after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            border: 1px solid map_get($brand-colors,"primary-green");
+        }
+        &:before {
+            display: none;
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            background: map_get($brand-colors,"primary-green");
+        }
+    }
+    input:checked + label {
+        background: map_get($brand-colors, "secondary-off-white");
+        &:before {
+            display: block;
+        }
+
+    }
+}
+
+
+
+.border-width-4{
+    border-width: 4px;
+}
+
+.foot-note-marker{
+    font-size: 12px;
+}
+
+.action-notification {
+    border: 3px solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .icon {
+        font-family: 'CooperMediumBT';
+        width: 55px;
+        min-width: 55px;
+        height: 55px;
+        font-size: 36px;
+    }
+    .close {
+        right: 12px;
+        top: 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    @media (max-width: 767px) {
+        .notification-text {
+            font-size: 16px;
+        }
+        .close {
+            font-size: 43px;
+        }
+    }
+}
+
+// Dropzone override
+#dropzone {
+    text-align:center;
+}
+
+#dropzone .dz-preview {
+    width:100%;
+    margin:0 auto;
+
+    @media screen and (min-width: 768px) {
+        width:60%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width:30%;
+    }
+}
+
+#dropzone .dz-preview .dz-image img {
+    width:100%;
+    height:auto;
+}

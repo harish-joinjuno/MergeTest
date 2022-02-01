@@ -1,0 +1,237 @@
+.new-dashboard {
+
+    .dashboard-row {
+        @media (min-width: 767px) {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .head {
+            background: #F1F6F9;
+            hr {
+                border-bottom: 2px solid #84C6C3;
+            }
+            @media (max-width: 767px) {
+                h2 {
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .content {
+            .title {
+                max-width: 600px;
+                @media (max-width: 767px) {
+                    font-size: 28px;
+                    line-height: 34px;
+                }
+            }
+            .desc {
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                @media (min-width: 767px) {
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+            }
+            .sent-image {
+                width: 200px;
+                height: 200px;
+                background: #F6E4FF;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                img {
+                    margin-left: -21px;
+                    margin-top: 18px;
+                }
+            }
+            .textarea-form {
+                max-width: 400px;
+                textarea {
+                    border: 2px solid #278D87;
+                    border-radius: 4px;
+                    min-height: 116px;
+                    font-size: 18px;
+                    outline: none;
+                    &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder,
+                    &:-ms-input-placeholder, &::placeholder {
+                        color: #A39898;
+                    }
+                    &::-webkit-resizer {
+                        display: none;
+                    }
+                }
+                .textare-line {
+                    position: relative;
+                    &:before, &:after {
+                        content: "";
+                        position: absolute;
+                        right: 3px;
+                        bottom: 16px;
+                        width: 13px;
+                        height: 2px;
+                        background: #278D87;
+                        border-radius: 2px;
+                        transform: rotate(135deg);
+                    }
+                    &:after {
+                        right: 3px;
+                        bottom: 13px;
+                        width: 7px;
+                    }
+                }
+                .button-content button {
+                    font-size: 19px;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+            .copy-link {
+                max-width: 420px;
+                .copy-body {
+                    border: 2px solid #C4C4C4;
+                    border-radius: 60px;
+                    input {
+                        border-radius: 60px;
+                        border: 0;
+                        white-space: nowrap;
+                        box-shadow: none;
+                    }
+                    button {
+                        margin-top: -2px;
+                        margin-bottom: -2px;
+                        margin-right: -2px;
+                        white-space: nowrap;
+                        font-size: 17px;
+                        line-height: 20px;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+                a {
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #5C7CEC;
+                    text-decoration-line: underline;
+                }
+            }
+        }
+        negotiation-group .btn {
+            font-size: 17px;
+        }
+        .negotiation-steps {
+            @media (max-width: 767px) {
+                margin-bottom: -16px;
+            }
+            .negotiation-step {
+                position: relative;
+                &:not(:last-child) {
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 43px;
+                        background-image: linear-gradient(to right, #3F3356 33%, rgba(255,255,255,0) 0%);
+                        background-position: bottom;
+                        background-size: 30px 2px;
+                        background-repeat: repeat-x;
+                        @media (max-width: 767px) {
+                            width: 38px;
+                            height: 100%;
+                            top: 32px;
+                            background-image: linear-gradient(#3F3356 33%, rgba(255,255,255,0) 0%);
+                            background-position: right;
+                            background-size: 2px 30px;
+                            background-repeat: repeat-y;
+                        }
+                    }
+                    .negotiation-image.active:after {
+                        z-index: 1;
+                        left: calc(50% + 15px);
+                        top: 36px;
+                        position: absolute;
+                        content: "";
+                        width: 50%;
+                        height: 12px;
+                        background: #278D87;
+                        border-radius: 17px;
+                        @media (max-width: 767px) {
+                            width: 12px;
+                            height: 100%;
+                            top: 30px;
+                            left: 31px;
+                        }
+                    }
+                }
+                &:not(:first-child) .negotiation-image.active:before {
+                    z-index: 1;
+                    left: -25px;
+                    top: 36px;
+                    position: absolute;
+                    content: "";
+                    width: 50%;
+                    height: 12px;
+                    background: #278D87;
+                    border-radius: 17px;
+                    @media (max-width: 767px) {
+                        width: 12px;
+                        height: 100%;
+                        top: -60px;
+                        left: 31px;
+                    }
+                }
+                .negotiation-image {
+                    position: relative;
+                    .negotiation-icon {
+                        z-index: 2;
+                        width: 74px;
+                        height: 74px;
+                        border-radius: 50%;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        img {
+                            left: -17px;
+                            bottom: 0;
+                            &.checked-icon {
+                                bottom: 10px;
+                                left: 10px;
+                            }
+                        }
+                    }
+                }
+                h3 {
+                    font-size: 18px;
+                    line-height: 23px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22px;
+                    max-width: 180px;
+                    @media (max-width: 767px) {
+                        max-width: none;
+                    }
+                }
+            }
+        }
+        @media (max-width: 767px) {
+            .view-more {
+                width: 100%;
+            }
+        }
+    }
+
+    .greeting {
+        h2 {
+            top: 0;
+            font-size: 42px;
+            max-width: 500px;
+            @media (min-width: 767px) {
+
+                font-size: 56px;
+            }
+        }
+    }
+}

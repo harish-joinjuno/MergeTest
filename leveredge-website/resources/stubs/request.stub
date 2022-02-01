@@ -1,0 +1,21 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class DummyClass extends FormRequest
+{
+
+    public function authorize()
+    {
+        return false;
+    }
+
+    public function rules()
+    {
+        return [
+            //
+        ];
+    }
+}

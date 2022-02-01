@@ -1,0 +1,14 @@
+<?php
+
+namespace DummyNamespace;
+
+use Tests\Feature\FeatureTest;
+
+class DummyClass extends FeatureTest
+{
+    /** @test */
+    public function it_should_work()
+    {
+        $this->assertTrue(true);
+    }
+}

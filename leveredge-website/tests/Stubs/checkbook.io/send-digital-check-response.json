@@ -1,0 +1,11 @@
+{
+    "amount": 100.0,
+    "date": "2020-01-30 14:23:31",
+    "description": null,
+    "id": "3b86ec4aeb7c4c4a8c0a6eef9a7a6e8d",
+    "image_uri": "https://checkbook-checks-dev.s3.amazonaws.com/226fe9eb-0403-453b-8930-01774de1f21c.png",
+    "name": "Daniel Camargo",
+    "number": 5002,
+    "recipient": "daniel@email.com",
+    "status": "UNPAID"
+}

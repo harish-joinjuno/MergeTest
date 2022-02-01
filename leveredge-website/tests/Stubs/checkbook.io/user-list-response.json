@@ -1,0 +1,23 @@
+{
+    "page": 1,
+    "pages": 1,
+    "total": 2,
+    "users": [
+        {
+            "date": "2020-01-30 14:02:46",
+            "id": "230abf557995477ea49d4c50be986ca5",
+            "name": "Daniel A",
+            "publishable_key": "0598831813fb4c159fb7eb99613dc626",
+            "secret_key": "RsQZ*****D3jo",
+            "user_id": "daniel+a@email.com"
+        },
+        {
+            "date": "2020-01-30 13:57:13",
+            "id": "63828516458049299d36136a41dfe114",
+            "name": "Daniel Camargo",
+            "publishable_key": "f7f9f3f67b224c219a918a53079b884f",
+            "secret_key": "u85D*****bBoN",
+            "user_id": "daniel@email.com"
+        }
+    ]
+}

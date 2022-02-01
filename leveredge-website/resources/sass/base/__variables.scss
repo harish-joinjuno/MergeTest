@@ -1,0 +1,64 @@
+$brand-green: #67B6B3;
+$scholarship-info-headline: #777777;
+$label-border: #439795;
+
+$brand-colors: (
+    "primary-green":       #2F706B,
+    "secondary-green":     #278D87,
+    "off-black":           #3F3356,
+    "accent-pink":         #FFE1E7,
+    "pink":                #FEB3C0,
+    "dark-pink":           #ED4765,
+    "yellow":              #FFD77B,
+    "tertiary-green":      #004A45,
+    "primary-black":       #222222,
+    "primary-off-white":   #E0FFFE,
+    "secondary-off-white": #ECF3F3,
+    "white":               #ffffff,
+    "alt-white":           #F9FAFF,
+    "translucent-green":   #EDF6F5,
+    "gray-one":            #F6FAF9
+);
+
+$theme-colors: (
+    "primary"       : map_get($brand-colors,"primary-green"),
+    "secondary"     : map_get($brand-colors,"accent-pink"),
+    "brand-green"   : $brand-green,
+);
+
+$theme-colors: map_merge($brand-colors, $theme-colors);
+
+$font-family-base: "GTWalsheimPro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-size-base: 1.15rem;
+
+$link-color:                              #2A7CBD;
+$link-hover-color:                        darken($link-color, 15%) !default;
+$link-hover-decoration:                   underline !default;
+
+$brand-fonts: (
+    "GTWalsheimProUltraBoldOblique":        ("file": "GT-Walsheim-Pro-Ultra-Bold-Oblique", "weight": 900, "style": oblique),
+    "GTWalsheimProUltraBoldObliqueItalic":  ("file": "GT-Walsheim-Pro-Ultra-Bold-Oblique", "weight": 900, "style": italic),
+    "GTWalsheimProUltraBold":               ("file": "GT-Walsheim-Pro-Ultra-Bold", "weight": 900, "style": normal),
+    "GTWalsheimProBlackOblique":            ("file": "GT-Walsheim-Pro-Black-Oblique", "weight": 800, "style": oblique),
+    "GTWalsheimProBlackObliqueItalic":      ("file": "GT-Walsheim-Pro-Black-Oblique", "weight": 800, "style": italic),
+    "GTWalsheimProBlack":                   ("file": "GT-Walsheim-Pro-Black", "weight": 800, "style": normal),
+    "GTWalsheimProBoldOblique":             ("file": "GT-Walsheim-Pro-Bold-Oblique", "weight": 700, "style": oblique),
+    "GTWalsheimProBoldObliqueItalic":       ("file": "GT-Walsheim-Pro-Bold-Oblique", "weight": 700, "style": italic),
+    "GTWalsheimProBold":                    ("file": "GT-Walsheim-Pro-Bold", "weight": 700, "style": normal),
+    "GTWalsheimProMediumOblique":           ("file": "GT-Walsheim-Pro-Medium-Oblique", "weight": 600, "style": oblique),
+    "GTWalsheimProMediumObliqueItalic":     ("file": "GT-Walsheim-Pro-Medium-Oblique", "weight": 600, "style": italic),
+    "GTWalsheimProMedium":                  ("file": "GT-Walsheim-Pro-Medium", "weight": 600, "style": normal),
+    "GTWalsheimProRegularOblique":          ("file": "GT-Walsheim-Pro-Regular-Oblique", "weight": 500, "style": oblique),
+    "GTWalsheimProRegularObliqueItalic":    ("file": "GT-Walsheim-Pro-Regular-Oblique", "weight": 500, "style": italic),
+    "GTWalsheimProRegular":                 ("file": "GT-Walsheim-Pro-Regular", "weight": 500, "style": normal),
+    "GTWalsheimProLightOblique":            ("file": "GT-Walsheim-Pro-Light-Oblique", "weight": 400, "style": oblique),
+    "GTWalsheimProLightObliqueItalic":      ("file": "GT-Walsheim-Pro-Light-Oblique", "weight": 400, "style": italic),
+    "GTWalsheimProLight":                   ("file": "GT-Walsheim-Pro-Light", "weight": 400, "style": normal),
+    "GTWalsheimProThinOblique":             ("file": "GT-Walsheim-Pro-Thin-Oblique", "weight": 300, "style": oblique),
+    "GTWalsheimProThinObliqueItalic":       ("file": "GT-Walsheim-Pro-Thin-Oblique", "weight": 300, "style": italic),
+    "GTWalsheimProThin":                    ("file": "GT-Walsheim-Pro-Thin", "weight": 300, "style": normal),
+    "GTWalsheimProUltraLightOblique":       ("file": "GT-Walsheim-Pro-Ultra-Light-Oblique", "weight": 200, "style": oblique),
+    "GTWalsheimProUltraLightObliqueItalic": ("file": "GT-Walsheim-Pro-Ultra-Light-Oblique", "weight": 200, "style": italic),
+    "GTWalsheimProUltraLight":              ("file": "GT-Walsheim-Pro-Ultra-Light", "weight": 200, "style": normal),
+);
+$fa-font-path: "/webfonts";

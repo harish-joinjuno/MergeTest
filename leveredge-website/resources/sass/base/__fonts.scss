@@ -1,0 +1,26 @@
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome";
+@import "~@fortawesome/fontawesome-pro/scss/brands";
+@import "~@fortawesome/fontawesome-pro/scss/duotone";
+@import "~@fortawesome/fontawesome-pro/scss/light";
+@import "~@fortawesome/fontawesome-pro/scss/regular";
+@import "~@fortawesome/fontawesome-pro/scss/solid";
+
+@font-face{
+    font-family: 'CooperMediumBT';
+    src:            url('/fonts/CooperMedium.ttf');
+}
+
+@each $name, $font in $brand-fonts {
+    @font-face {
+        font-family: 'GTWalsheimPro';
+        font-style: map_get($font, "style");
+        font-weight: map_get($font, "weight");
+        src: local('GTWalsheimPro'),
+        url('/fonts/GTWalsheim/#{map_get($font, "file")}.ttf') format('truetype'),
+        url('/fonts/GTWalsheim/#{map_get($font, "file")}.woff2') format('woff2'),
+        url('/fonts/GTWalsheim/#{map_get($font, "file")}.woff') format('woff'),
+        url('/fonts/GTWalsheim/#{map_get($font, "file")}.eot') format('embedded-opentype');
+
+    }
+}
+

@@ -1,0 +1,7 @@
+{
+    "type": "http:\/\/developer.mailchimp.com\/documentation\/mailchimp\/guides\/error-glossary\/",
+    "title": "Member Exists",
+    "status": 400,
+    "detail": "daniel+c@devsquad.com is already a list member. Use PUT to insert or update list members.",
+    "instance": "0d0f944b-38a8-4ff4-9fb0-3f144de0779e"
+}

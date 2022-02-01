@@ -1,0 +1,159 @@
+.republic-checkbox {
+    padding-left: 40px;
+    .try-it {
+        width: 54px;
+        height: 56px;
+        left: -15px;
+        top: -63px;
+        z-index: 2;
+        background: #FFE1E7;
+        border-radius: 8px;
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 10px 0 10px;
+            border-color: #FFE1E7 transparent transparent transparent;
+
+        }
+    }
+    input:checked + label {
+        i {
+            display: block!important;
+            position: absolute;
+            left: 7px;
+            z-index: 1;
+            top: 7px;
+            font-size: 11px;
+        }
+        &:after {
+            background: #67B6B3;
+        }
+    }
+
+    label {
+        cursor: pointer;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            left: 0;
+            top: 0;
+            border: 2px solid #67B6B3;
+            border-radius: 3px;
+        }
+    }
+
+}
+
+.republic-checkbox-disabled {
+    padding-left: 40px;
+    .try-it {
+        width: 54px;
+        height: 56px;
+        left: -15px;
+        top: -63px;
+        z-index: 2;
+        background: #FFE1E7;
+        border-radius: 8px;
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 10px 10px 0 10px;
+            border-color: #FFE1E7 transparent transparent transparent;
+
+        }
+    }
+    input:checked + label {
+        i {
+            display: block!important;
+            position: absolute;
+            left: 7px;
+            z-index: 1;
+            top: 7px;
+            font-size: 11px;
+        }
+        &:after {
+            background: #cccbcb;
+        }
+    }
+
+    label {
+        cursor: pointer;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            left: 0;
+            top: 0;
+            border: 2px solid #cccbcb;
+            border-radius: 3px;
+        }
+    }
+
+}
+
+h2.half-underline {
+    //border-bottom: 2px solid #000;
+    border-bottom: 0;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 2px;
+        background: #000;
+        width: 107px;
+    }
+}
+
+.pink-box {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.form-group.checklist{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bg-grey-heading{
+    background-color: #F7F7F5;
+}
+
+.bg-pink-heading{
+    background-color: #FFE1E7;
+}
+
+.values-in-table{
+    font-size: 1.5rem;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.card{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+#loanAmount{
+    font-family: CooperMediumBT;
+    font-size: 1.7rem;
+    color: #0A6C74;
+    box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    border: none;
+    height: 72px;
+    padding-left: 18px;
+    text-align: center;
+}

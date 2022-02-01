@@ -1,0 +1,14 @@
+<?php
+
+namespace DummyNamespace;
+
+use Tests\Unit\UnitTest;
+
+class DummyClass extends UnitTest
+{
+    /** @test */
+    public function it_should_work()
+    {
+        $this->assertTrue(true);
+    }
+}

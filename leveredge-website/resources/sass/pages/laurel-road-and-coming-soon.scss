@@ -1,0 +1,10 @@
+.laurel-road-and-coming-soon {
+    & .card.active{
+        border: 3px solid #2F706B;
+    }
+
+    & .card{
+        border: 1px solid #DCDCDC;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

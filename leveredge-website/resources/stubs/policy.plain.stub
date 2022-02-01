@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use NamespacedDummyUserModel;
+use Illuminate\Auth\Access\HandlesAuthorization;
+
+class DummyClass
+{
+    use HandlesAuthorization;
+
+    public function __construct()
+    {
+        //
+    }
+}

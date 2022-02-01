@@ -1,0 +1,10 @@
+<?php
+
+
+namespace App\Partnerships\Concretes\NetRevenueSharing;
+
+
+class __CLASS_NAME__ extends Main
+{
+    public static $percentage = __PERCENTAGE__;
+}

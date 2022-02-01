@@ -1,0 +1,67 @@
+/*
+Utilities
+ */
+.text-underline {
+    text-decoration: underline;
+}
+
+
+/*
+Next Steps
+ */
+
+#next-steps h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+#next-steps h2{
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #9a9a9a;
+}
+
+#next-steps h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#next-steps td:nth-child(2){
+    padding-left: 10px;
+}
+
+
+
+/*
+Current Groups
+ */
+#current-groups h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+#current-groups h2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/*
+Groups You Can Join / Available Groups
+ */
+#available-groups h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+#available-groups h2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+{
+    "type": "http:\/\/developer.mailchimp.com\/documentation\/mailchimp\/guides\/error-glossary\/",
+    "title": "Invalid Resource",
+    "status": 400,
+    "detail": "The resource submitted could not be validated. For field-specific details, see the 'errors' array.",
+    "instance": "ca1cdac2-503f-4bfd-b471-6c1a9a17a196",
+    "errors": [
+        {
+            "field": "merge_fields.FNAME",
+            "message": "Data did not match any of the schemas described in anyOf."
+        }
+    ]
+}

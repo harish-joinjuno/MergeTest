@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use NamespacedDummyUserModel;
+
+class DummyClass
+{
+
+    public function __construct()
+    {
+        //
+    }
+
+    public function join(DummyUser $user)
+    {
+        //
+    }
+}

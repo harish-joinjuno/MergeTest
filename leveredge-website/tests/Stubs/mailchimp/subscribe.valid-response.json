@@ -1,0 +1,103 @@
+{
+    "id": "fe12297cfd04e663b58000e8232c4cb0",
+    "email_address": "daniel+c@devsquad.com",
+    "unique_email_id": "75ab65835d",
+    "web_id": 333795243,
+    "email_type": "html",
+    "status": "subscribed",
+    "merge_fields": {
+        "FNAME": "Daniel",
+        "LNAME": "",
+        "ADDRESS": "",
+        "PHONE": "",
+        "BIRTHDAY": ""
+    },
+    "stats": {
+        "avg_open_rate": 0,
+        "avg_click_rate": 0
+    },
+    "ip_signup": "",
+    "timestamp_signup": "",
+    "ip_opt": "162.219.180.248",
+    "timestamp_opt": "2020-02-06T16:51:20+00:00",
+    "member_rating": 2,
+    "last_changed": "2020-02-06T16:51:20+00:00",
+    "language": "",
+    "vip": false,
+    "email_client": "",
+    "location": {
+        "latitude": 0,
+        "longitude": 0,
+        "gmtoff": 0,
+        "dstoff": 0,
+        "country_code": "",
+        "timezone": ""
+    },
+    "source": "API - Generic",
+    "tags_count": 0,
+    "tags": [],
+    "list_id": "f2cd3e9389",
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0",
+            "method": "GET",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Response.json"
+        },
+        {
+            "rel": "parent",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members",
+            "method": "GET",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/CollectionResponse.json",
+            "schema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/CollectionLinks\/Lists\/Members.json"
+        },
+        {
+            "rel": "update",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0",
+            "method": "PATCH",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Response.json",
+            "schema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/PATCH.json"
+        },
+        {
+            "rel": "upsert",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0",
+            "method": "PUT",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Response.json",
+            "schema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/PUT.json"
+        },
+        {
+            "rel": "delete",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0",
+            "method": "DELETE"
+        },
+        {
+            "rel": "activity",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0\/activity",
+            "method": "GET",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Activity\/Response.json"
+        },
+        {
+            "rel": "goals",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0\/goals",
+            "method": "GET",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Goals\/Response.json"
+        },
+        {
+            "rel": "notes",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0\/notes",
+            "method": "GET",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Notes\/CollectionResponse.json"
+        },
+        {
+            "rel": "events",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0\/events",
+            "method": "POST",
+            "targetSchema": "https:\/\/us4.api.mailchimp.com\/schema\/3.0\/Definitions\/Lists\/Members\/Events\/POST.json"
+        },
+        {
+            "rel": "delete_permanent",
+            "href": "https:\/\/us4.api.mailchimp.com\/3.0\/lists\/f2cd3e9389\/members\/fe12297cfd04e663b58000e8232c4cb0\/actions\/delete-permanent",
+            "method": "POST"
+        }
+    ]
+}
